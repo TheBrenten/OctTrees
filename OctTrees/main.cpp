@@ -92,7 +92,7 @@ int main(void)
 		//shader.setUniform4f("u_Color", 0.2, 0.3, 0.8, 1.0);
 
 		Texture texture("res/textures/bad_president.png");
-        Texture textureSkull("res/textures/bad_president.png");
+        Texture textureSkull("res/textures/boid.png");
 		texture.bind();
 		shader.setUniform1i("u_Texture", 0);
 
